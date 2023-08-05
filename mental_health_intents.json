@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I feel overwhelmed",
+        "I am feeling anxious",
+        "I am feeling depressed",
+        "I am struggling with my mental health",
+        "I'm really stressed out",
+        "My anxiety is getting worse",
+        "I'm so down lately",
+        "I think I need some help with my emotions",
+        "I've been feeling really low",
+        "My mood has been really bad",
+        "I can't shake off this sadness",
+        "I've been having a hard time lately"
+      ],
+      "responses": [
+        "I'm here to listen and support you. Can you tell me more about what's been going on?",
+        "It sounds like you're going through a tough time. How can I help you feel better?"
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "How can I cope with my anxiety?",
+        "What can I do to feel better?",
+        "What are some ways to manage depression?",
+        "Any tips for dealing with stress?",
+        "Can you suggest techniques for handling panic?",
+        "I'm feeling really overwhelmed, what should I do?",
+        "What can I do to calm down?",
+        "How do I manage my anxious thoughts?",
+        "Are there any techniques to improve my mood?"
+      ],
+      "responses": [
+        "Some coping strategies for anxiety include deep breathing exercises, mindfulness practices, and physical activity. Have you tried any of these?",
+        "There are many ways to manage depression, such as therapy, medication, and self-care practices. Can we explore which options might be best for you?"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Can you recommend a therapist?",
+        "Where can I find a support group?",
+        "What are some hotlines I can call?",
+        "Do you know any mental health professionals?",
+        "Is there a helpline for people in crisis?",
+        "I need someone to talk to",
+        "Where can I find help for my mental health?",
+        "Are there any online resources for mental health support?"
+      ],
+      "responses": [
+        "There are many resources available for mental health support. I can provide you with a list of local therapists, support groups, and hotlines. Would you like me to do that?",
+        "Please know that you are not alone. There are many resources available for help, I can give you some information about them if you want."
+      ]
+    },
+    {
+      "tag": "relaxation",
+      "patterns": [
+        "Can you help me relax?",
+        "I need to calm down",
+        "I'm feeling stressed",
+        "I could use something to help me unwind",
+        "What can I do to feel more at ease?",
+        "How do I practice mindfulness?",
+        "Can you guide me through a relaxation exercise?",
+        "I'm feeling really tense, any suggestions?"
+      ],
+      "responses": [
+        "Sure, some relaxation techniques include deep breathing exercises, meditation, and yoga. Would you like me to guide you through one of these?",
+        "Of course, some ways to relax include listening to calming music, reading a book, or taking a warm bath. What can I do to help you relax right now?"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I am in danger",
+        "I am thinking of harming myself",
+        "I am having suicidal thoughts",
+        "I need immediate assistance",
+        "Can you help me? I'm not sure what to do.",
+        "I'm in a crisis",
+        "I don't know how to keep going",
+        "I don't want to be alive anymore"
+      ],
+      "responses": [
+        "If you are in danger or thinking of harming yourself, please call emergency services immediately. If you are in the US, you can call 911. If you are in another country, please call the emergency services number for your location.",
+        "Please know that help is available. If you are thinking about harming yourself or are in crisis, please call emergency services immediately or reach out to the National Suicide Prevention Lifeline in the US at 1-800-273-TALK (8255)."
+      ]
+    },
+    {
+      "tag": "anxiety_attack",
+      "patterns": [
+        "How to deal with an anxiety attack?",
+        "What to do during an anxiety attack?",
+        "Help for anxiety attack",
+        "I'm having an anxiety attack, what should I do?",
+        "My heart is racing, is this an anxiety attack?",
+        "I'm finding it hard to breathe, is this anxiety?"
+      ],
+      "responses": [
+        "During an anxiety attack, try grounding techniques like focusing on your breathing or using your senses to connect with your surroundings. Remember that the feeling will pass.",
+        "Panic attacks can be overwhelming, but remember you're not alone. Try deep breathing exercises and remind yourself that it's a temporary state. If they persist, consider speaking to a mental health professional.",
+        "When experiencing an anxiety attack, it can help to find a quiet space, take slow deep breaths, and challenge negative thoughts. Remember that seeking support is important."
+      ]
+    },
+    {
+      "tag": "panic_attack",
+      "patterns": [
+        "How to cope with a panic attack?",
+        "What to do during a panic attack?",
+        "Help for panic attack",
+        "I feel like I'm having a panic attack, what can I do?",
+        "My heart is pounding, is this a panic attack?",
+        "I'm feeling dizzy and lightheaded, is this panic?"
+      ],
+      "responses": [
+        "During a panic attack, focus on your breathing and remind yourself that it will pass. Try to ground yourself by naming objects around you or using mindfulness techniques.",
+        "Panic attacks can be distressing, but remember that they are temporary. Engaging in slow, deep breathing and using calming techniques can help ease the symptoms.",
+        "When facing a panic attack, find a quiet and safe space, take slow breaths, and use positive affirmations to calm yourself. Seeking professional help is important if you experience frequent panic attacks."
+      ]
+    },
+    {
+      "tag": "depression_management",
+      "patterns": [
+        "How to manage depression?",
+        "Tips for dealing with depression",
+        "Coping with depressive thoughts",
+        "I'm struggling with a low mood, what can I do?",
+        "Isolating myself feels comforting, is this normal?",
+        "I don't enjoy things like before, what's happening?"
+      ],
+      "responses": [
+        "Managing depression involves a combination of therapy, medication, and self-care. It's important to reach out for professional help and engage in activities that bring you joy.",
+        "Coping with depression can be challenging, but remember to prioritize self-care. Reach out to a therapist, engage in hobbies, and consider talking to your doctor about treatment options.",
+        "Dealing with depressive thoughts may involve cognitive-behavioral techniques, setting small achievable goals, and staying connected with supportive people. Remember that seeking help is a sign of strength."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day!",
+        "Goodbye! Feel free to return whenever you like."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["You're welcome! If you have more questions, feel free to ask.", "Anytime! Don't hesitate to reach out if you need assistance.", "My pleasure!"]
+    },
+    {
+      "tag": "yes_no",
+      "patterns": [
+        "Yes",
+        "No",
+        "Maybe",
+        "I'm not sure"
+      ],
+      "responses": [
+        "Understood.",
+        "Got it.",
+        "Thank you for letting me know."
+      ]
+    },
+    {
+      "tag": "express_distress",
+      "patterns": [
+        "I want to die",
+        "I'm so tired of life",
+        "I can't go on anymore",
+        "Everything feels hopeless",
+        "I'm feeling really low, like I don't want to live anymore",
+        "I'm overwhelmed and don't see a way out",
+        "Life feels unbearable right now",
+        "I'm thinking about ending my life, can you help?"
+      ],
+      "responses": [
+        "I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can help, such as a mental health professional or a trusted person in your life.",
+        "I'm here for you, but please consider reaching out to a mental health professional or a helpline. You don't have to go through this alone.",
+        "I'm really concerned about what you're saying. It's crucial to speak with a mental health professional or someone who can provide the support you need."
+      ]
+    }
+  ]
+}
