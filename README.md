@@ -1,9 +1,6 @@
-# CSH
-Sure! Below is a sample README file for your chatbot project:
+# CSH (Compassionate Soul Harbinger)
 
-# Simple Chatbot using Flask and PyTorch
-
-This project implements a simple chatbot using Flask web framework and PyTorch for intent classification. The chatbot is capable of understanding user queries and providing appropriate responses based on pre-defined intents.
+This project implements a Mental Health chatbot using Flask web framework and PyTorch for intent classification. The chatbot is capable of understanding user queries and providing appropriate responses based on pre-defined intents.
 
 ## Table of Contents
 
